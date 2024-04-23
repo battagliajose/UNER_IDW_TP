@@ -1,0 +1,32 @@
+.seccion-5{
+    width: 100%;
+    height: 500px;
+    background-color: #242430;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FAF9F0;
+    gap:10px;
+}
+.text-frase{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.text-texto{
+    width: 50%;
+    padding: 20px;
+    letter-spacing: 2rem;
+}
+.session-img img {
+    width: 42%;
+    height: 100%;
+    object-fit: cover; 
+}
+.button-session5{
+    width: 118px;
+    height: 38px;
+    background-color: #E6260C;
+    color:#FAF9F0;
+}
