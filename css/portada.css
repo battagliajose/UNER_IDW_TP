@@ -1,3 +1,11 @@
+.espaciador {
+    width: 100vw;
+}
+
+.imagenPortadaEspaciador {
+    width: 100vw;
+}
+
 .contenedorImagenPortada {
     position: absolute;
     display: flex;
