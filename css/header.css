@@ -8,18 +8,14 @@ header {
     width: 100%;
   }
 
-  .logo_header{
-    width: 3vw;
-    padding-left: 0.5vw;
-  }
-  
+   
   /* Estilos para el título */
   .h1_header {
     font-size: 3vw;
     color:  rgb(228, 9, 46);
     font-weight:bold;
-    padding-left: 0
-    align: left; 
+    padding-left: 0    
+    padding-left: 0.5vw;
   }
   
   /* Estilos para el menú */
