@@ -1,0 +1,52 @@
+/* Estilos para el header */
+header {
+    display: inline-flex;
+    background-color: #000000;
+    justify-content: space-between; /* Alinea los elementos al principio y al final del header */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 1.5vw; /* Agrega un poco de espacio alrededor del header */ 
+    width: 100%;
+  }
+
+  .logo_header{
+    width: 3vw;
+    padding-left: 0.5vw;
+  }
+  
+  /* Estilos para el título */
+  .h1_header {
+    font-size: 3vw;
+    color:  rgb(228, 9, 46);
+    font-weight:bold;
+    padding-left: 0
+    align: left; 
+  }
+  
+  /* Estilos para el menú */
+  nav ul {
+    margin: 0;
+    padding-right: 9vw;
+    font-size: 2vw;   
+  }
+  
+  /* Alinea los elementos de la lista en línea y agrega espacio entre ellos */
+  li {
+    list-style: none; /* Elimina las viñetas de la lista */
+    display: inline-block;    
+    color: rgb(228, 9, 46);
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(239, 231, 232);
+  }
+
+  a:hover {
+    color: rgb(228, 9, 46);
+    font-size:3.02vw;
+  }
+  
+  
+  
