@@ -1,0 +1,12 @@
+.h2_footer {
+    font-size: 1.3rem;
+    color:  #E6260C;
+    font-weight:bold;
+    padding-left: 0;
+  }
+
+  .p_footer {
+    font-size: 0.7rem;
+    color:  #E6260C;    
+    padding-left: 0;      
+  }
