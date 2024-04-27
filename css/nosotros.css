@@ -1,0 +1,21 @@
+
+/* Estilo para h3 y h2 */
+h3, h2 {
+    border: 5px solid #E6260C; 
+    color: #E6260C; 
+    text-align: center;
+    padding: 10px; 
+    margin: 0; 
+}
+
+/* Estilo para quitar viñetas de las listas */
+ul {
+    list-style-type: none;
+}
+
+/* Estilo para fondo de la página */
+body {
+    background-color: #f5f5f5; 
+}
+
+
