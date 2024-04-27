@@ -1,23 +1,24 @@
 .seccion-5{
-    width: 100%;
-    height: 500px;
     background-color: #242430;
+    height: 400px;
+}
+.text-frase{
+    width: 50%;
+    color: #FAF9F0;
+    font-size: 2.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FAF9F0;
-    gap:10px;
-}
-
-.text-frase{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 .text-texto{
     width: 50%;
-    padding: 20px;
+    padding: 30px;
+    color: #FAF9F0;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .session-img img {
     width: 42%;
@@ -25,8 +26,9 @@
     object-fit: cover; 
 }
 .button-session5{
-    width: 118px;
+    width: 180px;
     height: 38px;
     background-color: #E6260C;
     color:#FAF9F0;
+   
 }

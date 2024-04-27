@@ -19,77 +19,157 @@
     <link rel="stylesheet" href="css/beneficios.css">
     <link rel="stylesheet" href="css/tarjetas.css">
     <link rel="stylesheet" href="css/seccionimagen.css">
+    <link rel="stylesheet" href="css/seccion3.css">
     <link rel="stylesheet" href="css/footer.css">
 
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
-<body>
-
+<body> 
     <section>
         <!--1.Header-->
-        <header>            
-            <h1 class="h1_header">HotelFlix</h1>
-
-            <!--1.Navbar-->
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Nosotros</a></li>                
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
+        <header>      
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <div class="container-fluid">
+                  <h1><a class="navbar-brand h1_header" href="#">hotelFlix</a></h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav nav-pers">
+                      <li class="nav-item">
+                        <a class="nav-pers-link nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-pers-link nav-link" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-pers-link nav-link" href="#">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>    
     </section>
 
     <main>
         <!--2.Portada-->
         <section class="portada">
-            <div class="contenedorImagenPortada">
-                <img class="imagenPortada" src="./img/Portada/friends-planning-travel-looking-at-map-article-032822_wide.jpg" alt="friends friends-planning-travel-looking-at-map-article-032822">
-                <div class="botonera">
-                    <input class="inputPortada" type="text" placeholder="Donde quieres viajar?">
-                    <input class="inputPortada" type="text" placeholder="Elije una fecha..">
-                    <div class="btnPortada">Encontrar!</div>
+                <div class="contenedorImagenPortada">
+                    <img class="imagenPortada" src="./img/Portada/friends-planning-travel-looking-at-map-article-032822_wide.jpg" alt="friends friends-planning-travel-looking-at-map-article-032822">
+                    <div class="botonera">
+                        <input class="inputPortada" type="text" placeholder="Donde quieres viajar?">
+                        <input class="inputPortada" type="text" placeholder="Elije una fecha..">
+                        <div class="btnPortada">Encontrar!</div>
+                    </div>
                 </div>
-            </div>
-            <div class="espaciador">
-                <img class="imagenPortadaEspaciador" src="./img/Portada/friends-planning-travel-looking-at-map-article-032822_wide.jpg" alt="friends friends-planning-travel-looking-at-map-article-032822">
-            </div>
+                <div class="espaciador">
+                    <img class="imagenPortadaEspaciador" src="./img/Portada/friends-planning-travel-looking-at-map-article-032822_wide.jpg" alt="friends friends-planning-travel-looking-at-map-article-032822">
+                </div>
         </section>
 
         <!--3.Beneficios-->
-        <section>
-            <h1>Beneficios</h1>
+        <section class="beneficios text-center">
+            <div class="container-fluid">
+                <h2>Millones de opciones para tus <span class="color-accent">vacaciones inolvidables</span> alrededor del mundo!</h2>
+                <p class="lead">Descubre la comodidad de nuestros alojamientos vacacionales.</p>
+                <p class="lead">Disfruta de servicios excepcionales, ubicaciones privilegiadas y las mejores tarifas. <strong>¡Reserva ahora para una experiencia única!</strong></p>
+             </div>
+        </section>
+        
+        <!--4.Tarjetas-->
+        <section class="cards">
+            <div class="card">
+                <img src="img/cards/apartment-3-be-za-durban-point-hg-72857486729068-2.jpg" alt="card">
+                <h4>Titulo</h4>
+                <p>Descrip1</p>
+                <p>Descrip2</p>
+                <a href="">Ver Disponibilidad</a> 
+            </div>
+          
+            <div class="card">
+                <img src="img/cards/apartment-3-bedrooms-za-durban-hg-72857486729068-0.jpg" alt="card">
+                <h4>Titulo</h4>
+                <p>Descrip1</p>
+                <p>Descrip2</p>
+                <a href="">Ver Disponibilidad</a>
+            </div>
+          
+          
+            <div class="card">
+                <img src="img/cards/durban-inn-za-durban-ha-3211536584-0.jpg" alt="card">
+                <h4>Titulo</h4>
+                <p>Descrip1</p>
+                <p>Descrip2</p>
+                <a href="">Ver Disponibilidad</a>
+            </div>
+          
+            <div class="card">
+                <img src="img/cards/forget-your-worries-in-t-za-berea-ha-61111505625-4.jpg" alt="card">
+                <h4>Titulo</h4>
+                <p>Descrip1</p>
+                <p>Descrip2</p>
+                <a href="">Ver Disponibilidad</a>
+            </div>
         </section>
 
-        <!--4.Tarjetas-->
-        <section>
-            <h1>Tarjetas</h1>
-        </section>
         <!--5.SecciónImagen-->
         <section>
-            <div class="seccion-5">
-                <div class="text-frase">
-                    <h4>Disfruta de la vida.Aprovecha la oportunidad</h4>
+            <div class="container-fluid ">
+                <div class="row seccion-5">                    
+                    <div class="col-6 text-frase " > 
+                        <h4>Disfruta de la vida.Aprovecha la oportunidad</h4>
+                    </div>
+
+                    <div class="col-6 text-texto" >
+                        <p>Reserva ahora y disfruta de tarifas especiales que te permitirán vivir momentos inolvidables.
+                            Relájate en nuestras elegantes habitaciones, deleita tu paladar con exquisita gastronomía 
+                            en nuestros restaurantes de clase mundial y sumérgete en la serenidad  de nuestros spa de primera categoría.
+                            
+                        </p>    
+                        <div class="button-session5">
+                            <button class="button-session5">¡Reserva ya!</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-texto">
-                    <p>Reserva ahora y disfruta de tarifas especiales que te permitirán vivir momentos inolvidables.
-                       Relájate en nuestras elegantes habitaciones, deleita tu paladar con exquisita gastronomía 
-                       en nuestros restaurantes de clase mundial y sumérgete en la serenidad  de nuestros spa de primera categoría.
-                    </p>
-                    <button class="button-session5">¡Reserva ya!</button>
+                <div class="session-img">
+                    <img src="/img/session5-img.jpg" alt="Foto de reposeras en pileta">
                 </div>
-            </div>
-            <div class="session-img">
-                <img src="/img/session5-img.jpg" alt="Foto de reposeras en pileta">
+    
             </div>
         </section>
     </main>
 
     <!--1.Footer-->
-    <footer>
-        <p>Footer</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <footer class="bg-dark text-white pt-3 pb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+                <h2 class="h2_footer">hotelFlix</h2>
+                <p class="p_footer">vacaciones inolvidables</p>
+            </div>
+            <div class="col text-center">              
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div class="col text-center">
+                <p>
+                    <a href="#" class="text-reset text-decoration-none">
+                        <span class="p_footer">Política</span>
+                    </a>
+                </p>
+                <p>
+                    <a href="#" class="text-reset text-decoration-none">
+                        <span class="p_footer">Preguntas frecuentes</span>
+                    </a>
+                </p>
+            </div>
+          </div>
+        </div>
+      </footer>  
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
 </html>

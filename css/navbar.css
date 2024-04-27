@@ -1,0 +1,19 @@
+.clase-hf-nav{
+    background-color: #242430;
+    color: #E6260C
+}
+
+.h1_header {
+    font-size: 1.5rem;
+    color:  #E6260C;
+    font-weight:bold;
+    padding-left: 0;        
+  }
+  .nav-pers {
+    margin: 0;    
+    font-size: 0.8rem;       
+  }
+
+  .nav-pers-link{
+    color: #FAF9F0;
+}
