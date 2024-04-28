@@ -53,13 +53,55 @@
               </nav>
         </header>    
     </section>
-
  
 
     <main>
         <!-- 2-contacto -->
         <section>
->           <!-- contanido -->
+>           <!-- contenido ejemplo a personalizar-->
+            <div class="container p-md-5">
+              <div class="row">
+                <div class="col-md">
+
+                  <form style="width: 26rem;">
+                    <!-- Name input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <input type="text" id="formContacto1" class="form-control" />
+                      <label class="form-label" for="formContacto1">Nombre</label>
+                    </div>
+
+                    <!-- Email input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <input type="email" id="formContacto2" class="form-control" />
+                      <label class="form-label" for="formContacto2">Email</label>
+                    </div>
+
+                    <!-- Message input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <textarea class="form-control" id="formContacto3" rows="4"></textarea>
+                      <label class="form-label" for="formContacto3">Mensaje</label>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                      <input
+                        class="form-check-input me-2"
+                        type="checkbox"
+                        value=""
+                        id="formContacto4"
+                        checked
+                      />
+                      <label class="form-check-label" for="formContacto4">
+                        Enviarme una copia de este mensaje
+                      </label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+                  </form>
+                </div>  
+              </div>  
+            </div>
         </section>        
     </main>
 
