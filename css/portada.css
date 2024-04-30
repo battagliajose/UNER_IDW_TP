@@ -4,6 +4,8 @@
 
 .imagenPortadaEspaciador {
     width: 100vw;
+    object-fit: cover;
+    min-height: 350px
 }
 
 .contenedorImagenPortada {
@@ -14,28 +16,32 @@
 
 .imagenPortada {
     width: 100vw;
+    object-fit: cover;
+    min-height: 350px;
 }
 
 .botonera {
     position: absolute;
     top: 70%;
     left: 30%;
-    transform: translate(-10%, -20%);
+    transform: translate(-10vw, -5vw);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color:rgba(0, 0, 0, 0.8);
-    border-radius: 2vh;
-    padding: 3vh;
+    border-radius: 2vw;
+    padding: 2vw;
 }
 
 .inputPortada {
+    height: 5vw;
     width: 20vw;
-    height: 8vh;
     border: 2px solid #E6260C;
-    padding: 0px 20px;
+    padding: 0px 1vw;
     margin: 0.5rem;
-    font-size: 2vh;
+    font-size: 1.7vw;
+    min-width: 250px;
 }
 
 .btnPortada {
@@ -44,8 +50,6 @@
     background-color: #E6260C;
     color: white;
     padding: 0.5rem;
-    box-shadow: 3px 3px 8px black;
-    font-size: 3vh;
-    border: 3px solid black;
-    height: 8vh;
+    font-size: 2.3vw;
+    height: 5vw;
 }
