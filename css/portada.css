@@ -1,21 +1,22 @@
 .espaciador {
-    width: 100vw;
+    width: 100%;
 }
 
 .imagenPortadaEspaciador {
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
-    min-height: 350px
+    min-height: 350px;
 }
 
 .contenedorImagenPortada {
+    width: 100%;
     position: absolute;
     display: flex;
     align-items: center;
 }
 
 .imagenPortada {
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     min-height: 350px;
 }
@@ -29,7 +30,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color:rgba(0, 0, 0, 0.8);
+    background-color:rgba(0, 0, 0, 0.6);
     border-radius: 2vw;
     padding: 2vw;
 }
