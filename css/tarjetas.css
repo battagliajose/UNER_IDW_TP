@@ -40,10 +40,12 @@
 .cardPieOferta {
     padding: 0.5rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .cardPieBoton {
     text-decoration: none;
+    text-align: center;
     background-color: #E6260C;
     color: white;
     width: fit-content;
