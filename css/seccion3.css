@@ -1,20 +1,16 @@
 .beneficios {
-    background-color: #FAF9F0;
+    background-color: #242430;
     padding-top: 3rem;
     padding-bottom: 3rem;
-}
-
-.beneficios.lead {
-    color: #888;
-    font-size: 1rem;
-    margin-top: 2rem;
-}
-
-.beneficios h2 span {
-    color: #E41B17;
-}
-
-.beneficios h2 {
-    background-color: #FAF9F0;
+    color: #FFFFFF;
     font-weight: bold;
+    font-size: 1.125rem;
+}
+
+/*.beneficios h2 span {
+    color: #E41B17;
+}*/
+
+.rojito {
+    color: #E41B17;
 }
