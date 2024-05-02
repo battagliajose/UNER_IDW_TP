@@ -32,10 +32,6 @@ main h2 {
     margin: 10vh auto;
 }
 
-.sobreNosotros {
-
-}
-
 .misionVision {
     display: flex;
     justify-content: space-between;
@@ -72,4 +68,19 @@ main h2 {
 /* Estilos para resaltar */
 .resaltado {
     font-weight: bold;
+}
+
+.comentarios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comentario {
+    width: 10vw;
+
+}
+
+.comentario img {
+    width: 100%;
+    border-radius: 50%;
 }
