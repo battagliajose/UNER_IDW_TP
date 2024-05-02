@@ -4,7 +4,6 @@
   "description": "Trabajo práctico de Introducción al desarrollo WEB",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
