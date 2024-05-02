@@ -6,8 +6,8 @@ body {
     line-height: 1.6;
     background-color: #FAF9F0;
     background-image: linear-gradient(rgb(255, 255, 255), rgba(222, 218, 218, 0.8)), url("../img/nosotros/oxana-v-qoAIlAmLJBU-unsplash.jpg");
-    /*background-image: linear-gradient(rgb(255, 255, 255), rgba(222, 218, 218, 0.8)), url("../img/nosotros/0026-Mapa-de-los-viajes-de-James-Cook-1794-scaled.webp");*/
     background-size: cover;
+    text-align: justify;
 }
 
 /* Estilos para los elementos <h2> */
@@ -42,29 +42,6 @@ main h2 {
     display: inline-block;
 }
 
-/* Estilos para el contenedor de comentarios */
-.contenedor-comentarios {
-    background-color: #242430;
-    padding: 20px;
-    margin-bottom: 20px;
-    white-space: nowrap;
-    overflow-x: auto;
-}
-
-/* Estilos para cada comentario */
-.lista-comentarios li {
-    background-color: #e9e0b4;
-    border: 1px solid #ccc;
-    padding: 10px;
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    max-width: 200px;
-    vertical-align: top;
-    white-space: normal;
-    word-wrap: break-word;
-}
-
 /* Estilos para resaltar */
 .resaltado {
     font-weight: bold;
@@ -72,15 +49,20 @@ main h2 {
 
 .comentarios {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
 .comentario {
-    width: 10vw;
-
+    max-width: 13vw;
+    min-width: 200px;
+    margin: 0 0.8vw;
 }
 
 .comentario img {
-    width: 100%;
+    width: 70%;
+    display: block;
+    margin: 1vh auto;
     border-radius: 50%;
 }
