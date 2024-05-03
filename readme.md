@@ -1,7 +1,7 @@
 
 <img src="https://secretariaextension.uner.edu.ar/wp-content/uploads/2021/04/logo-original-maschico.png" alt="">
-<h1 style="color: blue;">Tecnicatura Universitaria en Desarrollo Web</h1>
-<h2>Trabajo práctico de <span style="color: red;">Introducción al desarrollo WEB</span></h1>
+<h1>Tecnicatura Universitaria en Desarrollo Web</h1>
+<h2>Trabajo práctico de>Introducción al desarrollo WEB</h1>
 
 <h3>Integrantes:</h2>
 <ul>
@@ -18,7 +18,7 @@
 
 <h3>Como ejecutar el servidor:</h2>
 <p>Correr con Node:</p>
-<p style="font-family:monospace;">npm start</p>
-<p style="font-family:monospace;">npm run start</p>
+<p>npm start</p>
+<p>npm run start</p>
 <p>Correr con Nodemon: </p>
-<p style="font-family:monospace;">npm run dev</p>
+<p>npm run dev</p>
