@@ -1,7 +1,7 @@
 
 <img src="https://secretariaextension.uner.edu.ar/wp-content/uploads/2021/04/logo-original-maschico.png" alt="">
 <h1>Tecnicatura Universitaria en Desarrollo Web</h1>
-<h2>Trabajo práctico de>Introducción al desarrollo WEB</h1>
+<h2>Trabajo práctico de Introducción al desarrollo WEB</h1>
 
 <h3>Integrantes:</h2>
 <ul>
