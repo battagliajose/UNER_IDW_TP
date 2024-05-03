@@ -106,3 +106,7 @@ input:focus, textarea:focus{
         padding-bottom: 12rem;
     }
 }
+
+.text-fin{
+    padding-bottom: 5rem;
+}
